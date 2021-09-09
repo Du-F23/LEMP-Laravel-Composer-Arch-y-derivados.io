@@ -3,7 +3,7 @@
 Elaborado por Fernando Duarte Villavicencio.
 
 __**Antes de empezar, varias imagenes aparece un texto que se esta reinstalando la aplicación todo ello se hizo con el fin de comprobar si funcionaba cada uno de los comandos mostrados en este documento**__
-**Si su GNU/Linux esta basado en Debian, Ubuntu o derivados** [Click aqui](https://github.com/Du-F23/Instalacion-de-Apache-PHP-MySQL-PHPMyAdmin-Laravel-Composer-VSCode-y-Git-en-Ubuntu-Debian-Y-d)
+**Si su GNU/Linux esta basado en Debian, Ubuntu o derivados** [Click aqui](https://github.com/Du-F23/LAMPP-Composer-Laravel-en-Debian-Ubuntu-y-derivados.io)
 
 Para empezar iniciaremos actualizando todos las aplicaciones pendientes
 
