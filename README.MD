@@ -249,4 +249,6 @@ Pagina utilizada para configurar LEMP [NGINX, PHP, MySQL, PHPMyAdmin ](https://s
 
 Pagina utilizada para configurar Laravel [Laravel en Arch Linux](https://www.linuxandubuntu.com/home/install-laravel-on-manjaro-arch-linux).
 
+[phpMyAdmin error: The $cfg['TempDir'] (./tmp/) is not accessible](https://www.discoverbits.in/2122/phpmyadmin-error-the-$cfg-tempdir-tmp-is-not-accessible)
+
 Pagina de la Wiki de Arch [Nginx](https://wiki.archlinux.org/title/nginx), [MySQL](https://wiki.archlinux.org/title/MySQL), [PHP](https://wiki.archlinux.org/title/PHP), [PHPMYADMIN](https://wiki.archlinux.org/title/PhpMyAdmin), [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code).
