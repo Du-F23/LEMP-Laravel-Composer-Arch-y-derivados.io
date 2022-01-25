@@ -2,13 +2,15 @@
 
 Elaborado por Fernando Duarte Villavicencio.
 
-__**Antes de empezar, varias imagenes aparece un texto que se esta reinstalando la aplicación todo ello se hizo con el fin de comprobar si funcionaba cada uno de los comandos mostrados en este documento**__
+**Antes de empezar, varias imagenes aparece un texto que se esta reinstalando la aplicación todo ello se hizo con el fin de comprobar si funcionaba cada uno de los comandos mostrados en este documento**
+
 **Si su GNU/Linux esta basado en Debian, Ubuntu o derivados** [Click aqui](https://github.com/Du-F23/LAMPP-Composer-Laravel-en-Debian-Ubuntu-y-derivados.io)
 
 Para empezar iniciaremos actualizando todos las aplicaciones pendientes
 
 >`sudo pacman -Syu`
 _________________________________
+
 ## Instalación de Nginx 
 Despues iniciaremos con la instalación de NGINX (__**NGINX un software similar a Apache aunque es mas moderno**__).
 
@@ -40,17 +42,19 @@ __**Seguido a eso habilitaremos y activaremos PHP**__
 
 >`systemctl start php-fpm`
 
-__**Empezaremos a hacer la configuración para incluir PHP**__
+**Empezaremos a hacer la configuración para incluir PHP**
 
 >`sudo nano /etc/nginx/nginx.conf`
 
-__**Los comandos que usaremos para usar nano de forma correcta son los siguientes**__
+**Los comandos que usaremos para usar nano de forma correcta son los siguientes**
+
 - ctrl + x (Para salir del editor)
 - ctrl + o (Para guardar los cambios dentro del archivo)
 - ctrl + w (Buscar alguna linea)
 
 Ubicaremos la linea que dice lo siguiente
-__**#pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000**__
+*
+**#pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000**
 
 Y pegaremos remplazaremos por lo siguiente
 
@@ -84,7 +88,7 @@ Cuando encontremos la linea añadiremos lo siguiente
 Ahora creamos el archivo de información de PHP, para ello ingresaremos a la siguiente ruta
 >`cd /usr/share/nginx/html/`
 
-Y despues con ayuda de nano crearemos y editaremos el archivo, __**Se puede colocar cualquier nombre, pero que termine con la extension .php**__
+Y despues con ayuda de nano crearemos y editaremos el archivo, **Se puede colocar cualquier nombre, pero que termine con la extension .php**
 >`sudo nano info.php`
 
 ![](/img/php_info.png)
@@ -111,12 +115,12 @@ Ahora procederemos a instalar MySQL
 
 >`sudo pacman -S mysql`
 
-__**Nos pedira que escojamos el servicio, por lo cual 
-indicaremos el numero donde este ubicado mariadb**__
+**Nos pedira que escojamos el servicio, por lo cual 
+indicaremos el numero donde este ubicado mariadb**
 
 ![](/img/mysql_install.png)
 
-__**Seguido a eso habilitaremos y activaremos PHP**__
+**Seguido a eso habilitaremos y activaremos PHP**
 
 >`systemctl enable mariadb.service`
 
@@ -151,7 +155,7 @@ Despues crearemos el enlace para acceder a phpmyadmin
 Modificaremos el archivo de configuración de PHP
 > `sudo nano /etc/php/php.ini`
 
-__Descomentaremos las siguientes lineas para ello borraremos el siguiente simbolo ;__
+**Descomentaremos las siguientes lineas para ello borraremos el siguiente simbolo ;**
 
 extension=mysqli
 extension=mysql
@@ -196,7 +200,7 @@ Para verificar si laravel esta siendo reconocida haremos lo siguiente
 
 ![](/img/laravel_init.png)
 
-__**Para poder cargar laravel una vez cerrada la terminal lo unico que tenemos que hacer es lo siguiente**__
+**Para poder cargar laravel una vez cerrada la terminal lo unico que tenemos que hacer es lo siguiente**
 
 >`source ~/.bashrc`
 
@@ -225,7 +229,7 @@ la mas sencilla es mediante
 
 La segunda es la version oficial de Microsoft
 
-__**Importante: Necesitamos tener git y makepkg**__
+**Importante: Necesitamos tener git y makepkg**
 
 Primero debemos clonar el repositorio
 
